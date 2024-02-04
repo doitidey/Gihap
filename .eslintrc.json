@@ -1,5 +1,5 @@
 {
-  "extends": ["react-app", "eslint:recommended"], // eslint에서 기본적으로 추천하는 것을 사용하되, rules에 있는 것들을 추가적으로 적용
+  "extends": ["eslint-config-react-app", "eslint:recommended"], // eslint에서 기본적으로 추천하는 것을 사용하되, rules에 있는 것들을 추가적으로 적용
   "rules": {
     "no-var": "error", // var 금지
     "no-unused-vars": "warn",
